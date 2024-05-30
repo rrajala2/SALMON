@@ -1,0 +1,4 @@
+wt_input,wt_bead
+ko_input,ko_bead
+wt_input,ko_input
+wt_bead,ko_bead

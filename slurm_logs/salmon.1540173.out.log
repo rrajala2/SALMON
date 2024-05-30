@@ -1,0 +1,151 @@
+Version Info: This is the most recent version of salmon.
+### salmon (selective-alignment-based) v1.9.0
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ libType ] => { A }
+### [ minAssignedFrags ] => { 10 }
+### [ index ] => { 00-genomes/Mus_musculus.GRCm39.107.transcripts.fa.salmon }
+### [ output ] => { 02-salmon/ko_bead_2 }
+### [ mates1 ] => { 00-reads/ko_bead_2_R1.fastq.gz }
+### [ mates2 ] => { 00-reads/ko_bead_2_R2.fastq.gz }
+Logs will be written to 02-salmon/ko_bead_2/logs
+[2022-08-06 03:13:25.370] [jointLog] [info] setting maxHashResizeThreads to 64
+[2022-08-06 03:13:25.370] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-08-06 03:13:25.370] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-08-06 03:13:25.372] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-08-06 03:13:25.372] [jointLog] [info] parsing read library format
+[2022-08-06 03:13:25.372] [jointLog] [info] There is 1 library.
+[2022-08-06 03:13:25.527] [jointLog] [info] Loading pufferfish index
+[2022-08-06 03:13:25.534] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 38.806 s
+-----------------------------------------
+size = 25109431
+-----------------------------------------
+| Loading contig offsets | Time = 300.09 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 8.2893 ms
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 4.1958 s
+-----------------------------------------
+size = 3025429262
+Number of ones: 25109430
+Number of ones per inventory item: 512
+Inventory entries filled: 49042
+-----------------------------------------
+| Loading contig boundaries | Time = 5.151 s
+-----------------------------------------
+size = 3025429262
+-----------------------------------------
+| Loading sequence | Time = 2.1701 s
+-----------------------------------------
+size = 2272146362
+-----------------------------------------
+| Loading positions | Time = 25.967 s
+-----------------------------------------
+size = 2978109854
+-----------------------------------------
+| Loading reference sequence | Time = 1.9898 s
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 10.853 ms
+-----------------------------------------
+[2022-08-06 03:14:44.165] [jointLog] [info] done
+[2022-08-06 03:14:44.239] [jointLog] [info] Index contained 147,942 targets
+[2022-08-06 03:14:44.290] [jointLog] [info] Number of decoys : 61
+[2022-08-06 03:14:44.291] [jointLog] [info] First decoy index : 147,842 
+
+
+
+
+[2022-08-06 03:14:45.747] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 1,303,269, hits per frag:  3.48241[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 2,605,748, hits per frag:  3.5106[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 3,907,397, hits per frag:  2.98429[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 5,205,788, hits per frag:  2.92404[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 6,507,990, hits per frag:  2.68624[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 7,810,214, hits per frag:  2.93592[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 9,111,075, hits per frag:  2.63594[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 10,414,655, hits per frag:  2.64303[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 11,714,111, hits per frag:  2.88145[A[32mprocessed[31m 5,000,060 [32mfragments[0m
+hits: 13,014,163, hits per frag:  2.61443[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 14,318,868, hits per frag:  3.27225[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 15,618,778, hits per frag:  2.73865[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 16,916,383, hits per frag:  2.74225[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 18,220,893, hits per frag:  2.96918[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 19,522,695, hits per frag:  2.62204[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 20,819,769, hits per frag:  2.67814[A[32mprocessed[31m 8,500,000 [32mfragments[0m
+hits: 22,114,374, hits per frag:  2.65953[A[32mprocessed[31m 9,000,000 [32mfragments[0m
+hits: 23,414,350, hits per frag:  2.64489[A[32mprocessed[31m 9,500,000 [32mfragments[0m
+hits: 24,712,510, hits per frag:  2.6829[A[32mprocessed[31m 10,000,000 [32mfragments[0m
+hits: 26,010,624, hits per frag:  2.65647[A[32mprocessed[31m 10,500,000 [32mfragments[0m
+hits: 27,309,991, hits per frag:  2.66981[A[32mprocessed[31m 11,000,000 [32mfragments[0m
+hits: 28,605,263, hits per frag:  2.62001[A[32mprocessed[31m 11,500,001 [32mfragments[0m
+hits: 29,906,819, hits per frag:  2.63871[A[32mprocessed[31m 12,000,000 [32mfragments[0m
+hits: 31,210,413, hits per frag:  2.64321[A[32mprocessed[31m 12,500,000 [32mfragments[0m
+hits: 32,510,471, hits per frag:  2.61722[A[32mprocessed[31m 13,000,000 [32mfragments[0m
+hits: 33,806,992, hits per frag:  2.69921[A[32mprocessed[31m 13,500,000 [32mfragments[0m
+hits: 35,107,069, hits per frag:  2.62539[A[32mprocessed[31m 14,000,000 [32mfragments[0m
+hits: 36,410,727, hits per frag:  2.64178[A[32mprocessed[31m 14,500,000 [32mfragments[0m
+hits: 37,710,413, hits per frag:  2.68834[A[32mprocessed[31m 15,000,000 [32mfragments[0m
+hits: 39,007,657, hits per frag:  2.62079[A[32mprocessed[31m 15,500,000 [32mfragments[0m
+hits: 40,305,887, hits per frag:  2.70373[A[32mprocessed[31m 16,000,000 [32mfragments[0m
+hits: 41,604,910, hits per frag:  2.61952[A[32mprocessed[31m 16,500,000 [32mfragments[0m
+hits: 42,905,996, hits per frag:  2.6112[A[32mprocessed[31m 17,000,000 [32mfragments[0m
+hits: 44,205,437, hits per frag:  2.66558[A[32mprocessed[31m 17,500,000 [32mfragments[0m
+hits: 45,508,001, hits per frag:  2.61783[A[32mprocessed[31m 18,000,000 [32mfragments[0m
+hits: 46,806,003, hits per frag:  2.61767[A[32mprocessed[31m 18,500,000 [32mfragments[0m
+hits: 48,110,015, hits per frag:  2.60791[A[32mprocessed[31m 19,000,000 [32mfragments[0m
+hits: 49,410,238, hits per frag:  2.66208[A[32mprocessed[31m 19,500,001 [32mfragments[0m
+hits: 50,712,820, hits per frag:  2.62264[A[32mprocessed[31m 20,000,000 [32mfragments[0m
+hits: 52,013,062, hits per frag:  2.68375[A[32mprocessed[31m 20,500,000 [32mfragments[0m
+hits: 53,313,645, hits per frag:  2.61692[A[32mprocessed[31m 21,000,000 [32mfragments[0m
+hits: 54,615,131, hits per frag:  2.60961[A[32mprocessed[31m 21,500,000 [32mfragments[0m
+hits: 55,915,552, hits per frag:  2.63236[A[32mprocessed[31m 22,000,000 [32mfragments[0m
+hits: 57,211,708, hits per frag:  2.62428[A[32mprocessed[31m 22,500,000 [32mfragments[0m
+hits: 58,513,501, hits per frag:  2.61983[A[32mprocessed[31m 23,000,000 [32mfragments[0m
+hits: 59,815,662, hits per frag:  2.63823[A[32mprocessed[31m 23,500,000 [32mfragments[0m
+hits: 61,112,612, hits per frag:  2.61581[A[32mprocessed[31m 24,000,000 [32mfragments[0m
+hits: 62,416,069, hits per frag:  2.66495[A[32mprocessed[31m 24,500,000 [32mfragments[0m
+hits: 63,716,172, hits per frag:  2.62246[A[32mprocessed[31m 25,000,001 [32mfragments[0m
+hits: 65,018,648, hits per frag:  2.63486[A[32mprocessed[31m 25,500,000 [32mfragments[0m
+hits: 66,319,092, hits per frag:  2.61823
+
+
+
+
+
+
+
+[2022-08-06 03:17:50.526] [jointLog] [info] Computed 251,093 rich equivalence classes for further processing
+[2022-08-06 03:17:50.526] [jointLog] [info] Counted 23,333,013 total reads in the equivalence classes 
+[2022-08-06 03:17:50.572] [jointLog] [info] Number of mappings discarded because of alignment score : 14,516,460
+[2022-08-06 03:17:50.572] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 2,111,121
+[2022-08-06 03:17:50.572] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 272,602
+[2022-08-06 03:17:50.572] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 273,011
+[2022-08-06 03:17:50.572] [jointLog] [info] Mapping rate = 90.7043%
+
+[2022-08-06 03:17:50.572] [jointLog] [info] finished quantifyLibrary()
+[2022-08-06 03:17:50.580] [jointLog] [info] Starting optimizer
+TBB Warning: The number of workers is currently limited to 61. The request for 63 workers is ignored. Further requests for more workers will be silently ignored until the limit changes.
+
+[2022-08-06 03:17:50.779] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2022-08-06 03:17:50.801] [jointLog] [info] iteration = 0 | max rel diff. = 8386.26
+[2022-08-06 03:17:52.690] [jointLog] [info] iteration = 100 | max rel diff. = 18.9767
+[2022-08-06 03:17:54.607] [jointLog] [info] iteration = 200 | max rel diff. = 3.97791
+[2022-08-06 03:17:56.467] [jointLog] [info] iteration = 300 | max rel diff. = 1.27245
+[2022-08-06 03:17:58.343] [jointLog] [info] iteration = 400 | max rel diff. = 5.88042
+[2022-08-06 03:18:00.212] [jointLog] [info] iteration = 500 | max rel diff. = 0.590732
+[2022-08-06 03:18:02.149] [jointLog] [info] iteration = 600 | max rel diff. = 10.8567
+[2022-08-06 03:18:03.995] [jointLog] [info] iteration = 700 | max rel diff. = 0.0991884
+[2022-08-06 03:18:05.843] [jointLog] [info] iteration = 800 | max rel diff. = 0.412622
+[2022-08-06 03:18:07.647] [jointLog] [info] iteration = 900 | max rel diff. = 0.0634768
+[2022-08-06 03:18:09.447] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.277722
+[2022-08-06 03:18:09.537] [jointLog] [info] iteration = 1,006 | max rel diff. = 0.00702457
+[2022-08-06 03:18:09.579] [jointLog] [info] Finished optimizer
+[2022-08-06 03:18:09.579] [jointLog] [info] writing output 
+
